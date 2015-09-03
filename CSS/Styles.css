@@ -1,0 +1,53 @@
+* {
+}
+.contactMe {
+    position: fixed;
+    width: 97.875%;
+    color: #000000;
+    background-color: #0CA5EB;
+    height: 40px;
+    padding: 10px 10px;
+    text-shadow: 1px 1px 1px #fff;
+    border: 3px solid #000000;
+    border-radius: 12px;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 28pt;
+    font-weight: bold;
+}
+section {
+    background-color: #F0EDE5;
+    padding: 2px 15px 10px;
+    border-radius: 12px;
+    margin-top: 30px;
+    border: 3px #000000 solid;
+}
+input[type=submit] {
+    font-weight: bold;
+    font-size: 14pt;
+    padding: 10px 10px;
+    background-color: #0CA5EB;
+    border: 3px solid #000000;
+    border-radius: 8px;
+    color: #000000;
+    cursor: pointer;
+    text-shadow: 1px 1px 1px #fff;
+}
+.portfolio {
+    font: 400 100px/1.2 'Merienda One', Helvetica, sans-serif;
+    font-size: 100px;
+    text-shadow: 3px 3px 3px #fff;
+    text-align: center;
+}
+.subHeading {
+    font: 400 100px/1.2 'Merienda One', Helvetica, sans-serif;
+    font-size: 30px;
+    text-shadow: 1px 1px 1px #fff;
+    text-align: left;
+}
+td {
+    text-align: center
+}
+tr {
+    text-shadow: 2px 2px 2px #fff;
+}
