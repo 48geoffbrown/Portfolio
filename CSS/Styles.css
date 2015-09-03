@@ -4,7 +4,7 @@
     position: fixed;
     width: 97.875%;
     color: #000000;
-    background-color: #0CA5EB;
+    background-color: #1D90F7;
     height: 40px;
     padding: 10px 10px;
     text-shadow: 1px 1px 1px #fff;
@@ -16,7 +16,7 @@
     font-weight: bold;
 }
 section {
-    background-color: #F0EDE5;
+    background-color: #C7CACD;
     padding: 2px 15px 10px;
     border-radius: 12px;
     margin-top: 30px;
@@ -26,7 +26,7 @@ input[type=submit] {
     font-weight: bold;
     font-size: 14pt;
     padding: 10px 10px;
-    background-color: #0CA5EB;
+    background-color: #1D90F7;
     border: 3px solid #000000;
     border-radius: 8px;
     color: #000000;
@@ -50,4 +50,11 @@ td {
 }
 tr {
     text-shadow: 2px 2px 2px #fff;
+}
+.project {
+
+}
+body {
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }

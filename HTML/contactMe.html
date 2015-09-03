@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Me</title>
+<link rel="stylesheet" href="../CSS/Styles.css" type="text/css" >
+</head>
+<body>
+<header class="contactMe" >
+    Contact Me & Feedback
+</header>
+<br/>
+<br/>
+<br/>
+<main>
+    <section>
+        <h2>Contact Me</h2>
+        <form name="textInputs" method="GET" action="inputsReceived.html">
+            Name:
+            <input type="text" name="regularText" placeholder="last, first" pattern="[a-zA-Z]+, [a-zA-Z]+" /><br/>
+            <br/>
+            Telephone:
+            <input type="tel" name="telephoneText" placeholder="xxx-xxx-xxxx" pattern="\b\d{3}[-]\d{3}[-]\d{4}\b" /><br/>
+            <br/>
+            Email:
+            <input type="email" name="emailText" placeholder="xxx@xxxxx.xxx" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}" /><br/>
+            <br/>
+            Date:
+            <input type="date" name="dateOnly" /><br/>
+            <br/>
+            Message/Comments:
+            <textarea name="textareaDemo" maxlength="200" placeholder="200 characters max" ></textarea><br/>
+            <br/>
+            <input type="reset" name="Clear" />
+            <br/>
+            <br/>
+            <input type="submit"/>
+        </form>
+    </section>
+    <section>
+        <h2>Feedback</h2>
+        <form name="checkRadioInputs" method="GET" action="inputsReceived.html">
+            What do I need to improve on?<br/>
+            <input type="checkbox" name="layout" value="layout"/> Layout <br/>
+            <input type="checkbox" name="navigation" value="navigation" /> Navigation <br/>
+            <input type="checkbox" name="style" value="style"/> Style <br/>
+            <input type="checkbox" name="presentation" value="presentation"/> Presentation <br/>
+            <input type="checkbox" name="ambience" value="ambience"/> Ambience <br/>
+            <br/>
+            Grade my portfolio?<br/>
+            <label><input type="radio" name="grade" value="A" /> A</label><br/>
+            <label><input type="radio" name="grade" value="B" /> B</label><br/>
+            <label><input type="radio" name="grade" value="C" /> C</label><br/>
+            <label><input type="radio" name="grade" value="D" /> D</label><br/>
+            <label><input type="radio" name="grade" value="F" /> F</label><br/>
+            <br/>
+            Message/Comments:
+            <textarea name="textareaDemo" maxlength="200" placeholder="200 characters max" ></textarea><br/>
+            <br/>
+            <input type="reset" name="Clear" />
+            <br/>
+            <br/>
+            <input type="submit"/>
+        </form>
+    </section>
+</main>
+</body>
+</html>
