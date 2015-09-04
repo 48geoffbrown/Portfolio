@@ -28,7 +28,9 @@ section {
 table {
     width: 100%;
 }
-
+.myPhoto {
+    width: 250px; height: 300px;
+}
 input[type=submit] {
     font-weight: bold;
     font-size: 14pt;
@@ -40,11 +42,17 @@ input[type=submit] {
     cursor: pointer;
     text-shadow: 1px 1px 1px #fff;
 }
+.list {
+    font-size: 14pt;
+}
 .portfolio {
     font: 400 100px/1.2 'Merienda One', Helvetica, sans-serif;
     font-size: 100px;
     text-shadow: 3px 3px 3px #fff;
     text-align: center;
+}
+li {
+    list-style-image: url('../Images/ic_games_black_18dp_1x.png');
 }
 .subHeading {
     font: 400 100px/1.2 'Merienda One', Helvetica, sans-serif;
