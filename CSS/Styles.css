@@ -1,5 +1,8 @@
 * {
 }
+body {
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.6) 0%, rgba(255, 255, 255, 0.6) 100%), url(http://wallpaperszip.com/wp-content/uploads/2015/01/very-calm-and-modern-office-interior-design.jpg) no-repeat top center;
+}
 .contactMe {
     position: fixed;
     width: 97.875%;
@@ -22,6 +25,10 @@ section {
     margin-top: 30px;
     border: 3px #000000 solid;
 }
+table {
+    width: 100%;
+}
+
 input[type=submit] {
     font-weight: bold;
     font-size: 14pt;
