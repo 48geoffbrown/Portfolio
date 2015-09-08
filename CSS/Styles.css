@@ -28,6 +28,10 @@ section {
 table {
     width: 100%;
 }
+.icon {
+    width: 15px;
+    height: 15px;
+}
 .myPhoto {
     width: 250px;
     height: 300px;
