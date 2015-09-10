@@ -46,12 +46,28 @@ table {
     width: 250px;
     height: 175px;
 }
+.hobbiesSchoolsJobs:hover {
+    opacity: 0.8;
+}
 .myPhoto {
     width: 275px;
     height: 350px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+.icon3 {
+    width: 25px;
+    height: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    bottom: 25px;
+    left: 150px;
+}
+.myPhoto:hover {
+    opacity: 0.8;
 }
 input[type=submit] {
     font-weight: bold;
@@ -95,4 +111,16 @@ tr {
 body {
     background-attachment: fixed;
     background-repeat: no-repeat;
+}
+.bio {
+    text-indent: 50px;
+}
+.bio2 {
+    text-indent: 100px;
+}
+.bio3 {
+    text-indent: 250px;
+}
+b:hover {
+    background-color: #1D90F7;
 }
