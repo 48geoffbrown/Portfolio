@@ -1,7 +1,9 @@
 * {
 }
 body {
-    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.6) 0%, rgba(255, 255, 255, 0.6) 100%), url(http://wallpaperszip.com/wp-content/uploads/2015/01/very-calm-and-modern-office-interior-design.jpg) no-repeat top center;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.7) 100%), url(http://wallpaperszip.com/wp-content/uploads/2015/01/very-calm-and-modern-office-interior-design.jpg) no-repeat top center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 .contactMe {
     position: fixed;
@@ -33,14 +35,20 @@ iframe {
 }
 table {
     width: 100%;
+    max-width: 1250px;
     transition: width 3s;
     -webkit-transition: 3s;
+    margin-left: auto;
+    margin-right: auto;
+
 }
-nav {
-    width: 25%;
-}
-nav:hover {
+.nav {
     width: 100%;
+    max-width: 1024px;
+    transition: width 3s;
+    -webkit-transition: 3s;
+    margin-left: auto;
+    margin-right: auto;
 }
 .icon {
     width: 15px;
@@ -116,10 +124,6 @@ tr {
 .project {
 
 }
-body {
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-}
 .bio {
     text-indent: 50px;
 }
@@ -129,6 +133,10 @@ body {
 .bio3 {
     text-indent: 250px;
 }
-b:hover {
+.link:hover {
     background-color: #1D90F7;
 }
+footer {
+    font-size: 12pt;
+}
+
