@@ -1,171 +1,223 @@
 <!DOCTYPE html>
+<a name="top"></a>
 <html>
 <head>
     <title>Resume</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="JAVA.js"></script>
+    <link rel="stylesheet" href="../CSS/Styles.css" type="text/css"/>
+    <link href='https://fonts.googleapis.com/css?family=Russo+One' rel='stylesheet' type='text/css'>
+    <script>
+        $(document).ready(function(){
+            $('[data-toggle="popover"]').popover();
+        });
+    </script>
 </head>
-<body>
+<body id="resumeBody">
     <div class="container">
         <div class="row">
             <div class="col-md-12 text-center">
-                <h1>GEOFFREY BROWN</h1>
+                <span> click to expand --></span><span id="myName" data-toggle="collapse" data-target="#name"> <u><b>GEOFFREY BROWN</b></u></span><span> <-- click to expand</span>
             </div>
-            <div class="col-md-6 text-right">Address:</div>
-            <div class="col-md-6 text-left">883 North 350 East</div>
-            <div class="col-md-6 text-right">City/State:</div>
-            <div class="col-md-6 text-left">Orem, UT</div>
-            <div class="col-md-6 text-right">Zip Code:</div>
-            <div class="col-md-6 text-left">84057</div>
-            <div class="col-md-6 text-right">Phone:</div>
-            <div class="col-md-6 text-left">(801) 500-2320</div>
-            <div class="col-md-6 text-right">E-mail:</div>
-            <div class="col-md-6 text-left"><a href="mailto:48geoffbrown@gmail.com?Subject=Resume" target="_top">48geoffbrown@gmail.com</a></div>
+                <div class="row collapse" id="name">
+                    <div class="col-md-6 text-right">Address:</div>
+                    <div class="col-md-6 text-left">883 North 350 East</div>
+                    <div class="col-md-6 text-right">City/State:</div>
+                    <div class="col-md-6 text-left">Orem, UT</div>
+                    <div class="col-md-6 text-right">Zip Code:</div>
+                    <div class="col-md-6 text-left">84057</div>
+                    <div class="col-md-6 text-right">Phone:</div>
+                    <div class="col-md-6 text-left">(801) 500-2320</div>
+                    <div class="col-md-6 text-right">E-mail:</div>
+                    <div class="col-md-6 text-left"><a href="mailto:48geoffbrown@gmail.com?Subject=Resume" target="_top">48geoffbrown@gmail.com</a></div>
+                </div>
         </div>
         <hr>
         <div class="row">
-            <div class="col-md-12">
-                <h3><i class="fa fa-thumb-tack"></i> OBJECTIVE <i class="fa fa-thumb-tack"></i></h3>
-                </div>
-                <div class="col-md-1">
-                </div>
-                    <div class="col-md-11 text-left"><b><i>"To build a long term career while using my skills to achieve the company's goals"</i></b></div>
-            <div class="col-md-12">
-        <hr>
-                <h3><i class="fa fa-briefcase"></i> PROFESSIONAL EXPERIENCE <i class="fa fa-briefcase"></i></h3>
+            <div>
+                <span id="subHeading" data-toggle="collapse" data-target="#objective"><i class="fa fa-thumb-tack"></i> <u>OBJECTIVE</u> <i class="fa fa-thumb-tack"></i></span><span> <-- click to expand</span>
             </div>
-                <div class="col-md-1"></div>
-                <div class="col-md-9">
-                    <h4><a href="http://www.legacyhomedesign.com/Home" target="_blank">Legacy Drafting and Design</a></h4>
+                <div class="row">
+                    <div id="objective" class="collapse col-md-12">
+                        <div  class="col-md-1"></div>
+                        <div  class="col-md-11 text-left"><b><i>"To build a long term career while using my skills to achieve the company's goals"</i></b></div>
+                    </div>
                 </div>
-                <div class="col-md-2">
-                    <h4>Orem, UT</h4>
-                </div>
-                <div class="col-md-1"></div>
-                <div class="col-md-9">
-                    <h5><b><i>Project Manager/Draftsman</i></b></h5>
-                </div>
-                <div class="col-md-2">
-                    <h5><b><i>2004-Current</i></b></h5>
-                </div>
-                <div class="col-md-1"></div>
-                <div class="col-md-11">
-                    Managed projects which included designing, drafting with AutoCAD, having knowledge of building codes/city requirements,
-                    producing complete residential construction drawings, and coordinating with the clients, cities, engineers, contractors,
-                    and sub-contractors.  Trained all new employees and interns.  Used QuickBooks to create invoices, collect payments, manage
-                    company funds, pay bills, and distribute payroll.  Used Photoshop, Microsoft Word and the Internet to create marketing materials.
-                </div>
-                <div class="col-md-1"></div>
-                <div class="col-md-9">
-                    <h4><a href="http://magnum-usa.com/" target="_blank">Magnum Manufacturing Corporation</a></h4>
-                </div>
-                <div class="col-md-2">
-                    <h4>Pleasant Grove, UT</h4>
-                </div>
-                <div class="col-md-1"></div>
-                <div class="col-md-9">
-                    <h5><b><i>Production Manager/Draftsman</i></b></h5>
-                </div>
-                <div class="col-md-2">
-                    <h5><b><i>2009-2015</i></b></h5>
-                </div>
-                <div class="col-md-1"></div>
-                <div class="col-md-11">
-                    Drafting and designing shop drawings of all concrete and steel products.  Coordinating with clients and management team to
-                    ensure finished products are built correctly and in a timely manner.  Using QuickBooks to send out quotes for perspective
-                    projects.  Using excel to schedule production, manage labor/material costs, keep track of and order inventory, etc.  Hiring,
-                    training, and managing production crew.  Operating and training others on cranes, forklifts, iron workers, shears, saws, and
-                    other equipment.
-                </div>
-                <div class="col-md-1"></div>
-                <div class="col-md-9">
-                    <h4><a href="http://www.jcpenney.com/" target="_blank">JC Penney</a></h4>
-                </div>
-                <div class="col-md-2">
-                    <h4>Provo, UT</h4>
-                </div>
-                <div class="col-md-1"></div>
-                <div class="col-md-9">
-                    <h5><b><i>Sales Associate/Replenishment Team</i></b></h5>
-                </div>
-                <div class="col-md-2">
-                    <h5><b><i>1999-2004</i></b></h5>
-                </div>
-                <div class="col-md-1"></div>
-                <div class="col-md-11">
-                    Stockroom duties included receiving loads, preparing merchandise, and processing returns/charge backs.  Sales floor duties
-                    included sales, customer service, maintaining a clean and orderly department, using cash register and processing catalog
-                    orders.  Replenishment team duties included keeping racks and shelves stocked with merchandise, maintaining store displays,
-                    and helping with stock room and sales floor as needed.  I trained and managed all new employees and temporary workers.
+        <hr>
+            <div>
+                <span id="subHeading" data-toggle="collapse" data-target="#experience"><i class="fa fa-briefcase"></i> <u>PROFESSIONAL EXPERIENCE</u> <i class="fa fa-briefcase"></i></span><span> <-- click to expand</span>
+            </div>
+                <div class="container collapse" id="experience">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-9">
+                        <h4><a href="http://www.legacyhomedesign.com/Home" target="_blank">Legacy Drafting and Design</a></h4>
+                    </div>
+                    <div class="col-md-2">
+                        <h4>Orem, UT</h4>
+                    </div>
+                    <div class="col-md-1"></div>
+                    <div class="col-md-9">
+                        <h5><b><i>Project Manager/Draftsman</i></b></h5>
+                    </div>
+                    <div class="col-md-2">
+                        <h5><b><i>2004-Current</i></b></h5>
+                    </div>
+                    <div class="col-md-1"></div>
+                    <div class="col-md-11">
+                        Managed projects which included designing, drafting with AutoCAD, having knowledge of building codes/city requirements,
+                        producing complete residential construction drawings, and coordinating with the clients, cities, engineers, contractors,
+                        and sub-contractors.  Trained all new employees and interns.  Used QuickBooks to create invoices, collect payments, manage
+                        company funds, pay bills, and distribute payroll.  Used Photoshop, Microsoft Word and the Internet to create marketing materials.
+                    </div>
+                    <div class="col-md-1"></div>
+                    <div class="col-md-9">
+                        <h4><a href="http://magnum-usa.com/" target="_blank">Magnum Manufacturing Corporation</a></h4>
+                    </div>
+                    <div class="col-md-2">
+                        <h4>P. Grove, UT</h4>
+                    </div>
+                    <div class="col-md-1"></div>
+                    <div class="col-md-9">
+                        <h5><b><i>Production Manager/Draftsman</i></b></h5>
+                    </div>
+                    <div class="col-md-2">
+                        <h5><b><i>2009-2015</i></b></h5>
+                    </div>
+                    <div class="col-md-1"></div>
+                    <div class="col-md-11">
+                        Drafting and designing shop drawings of all concrete and steel products.  Coordinating with clients and management team to
+                        ensure finished products are built correctly and in a timely manner.  Using QuickBooks to send out quotes for perspective
+                        projects.  Using excel to schedule production, manage labor/material costs, keep track of and order inventory, etc.  Hiring,
+                        training, and managing production crew.  Operating and training others on cranes, forklifts, iron workers, shears, saws, and
+                        other equipment.
+                    </div>
+                    <div class="col-md-1"></div>
+                    <div class="col-md-9">
+                        <h4><a href="http://www.jcpenney.com/" target="_blank">JC Penney</a></h4>
+                    </div>
+                    <div class="col-md-2">
+                        <h4>Provo, UT</h4>
+                    </div>
+                    <div class="col-md-1"></div>
+                    <div class="col-md-9">
+                        <h5><b><i>Sales Associate/Replenishment Team</i></b></h5>
+                    </div>
+                    <div class="col-md-2">
+                        <h5><b><i>1999-2004</i></b></h5>
+                    </div>
+                    <div class="col-md-1"></div>
+                    <div class="col-md-11">
+                        Stockroom duties included receiving loads, preparing merchandise, and processing returns/charge backs.  Sales floor duties
+                        included sales, customer service, maintaining a clean and orderly department, using cash register and processing catalog
+                        orders.  Replenishment team duties included keeping racks and shelves stocked with merchandise, maintaining store displays,
+                        and helping with stock room and sales floor as needed.  I trained and managed all new employees and temporary workers.
+                    </div>
                 </div>
         </div>
         <hr>
-            <div class="col-md-12">
-                <h3><i class="fa fa-graduation-cap"></i> EDUCATION <i class="fa fa-graduation-cap"></i></h3>
+            <div class="row">
+                <div>
+                <span id="subHeading" data-toggle="collapse" data-target="#education"><i class="fa fa-graduation-cap"></i> <u>EDUCATION</u> <i class="fa fa-graduation-cap"></i></span><span> <-- click to expand</span>
+                </div>
             </div>
-                <div class="row">
-                    <div class="col-md-6 text-right"><h4><a href="http://mlatc.edu/" target="_blank">Mountainland Applied Technology College:</a></h4></div>
-                    <div class="col-md-6 text-left"><h4>Lehi, UT</h4></div>
-                    <div class="col-md-6 text-right"><b><i>Web Development and Programming</i></b></div>
-                    <div class="col-md-6 text-left"><b><i>2015-2016</i></b></div>
-                    <div class="col-md-6 text-right"><h4><a href="http://www.uvu.edu/" target="_blank">Utah Valley University:</a></h4></div>
-                    <div class="col-md-6 text-left"><h4>Orem, UT</h4></div>
-                    <div class="col-md-6 text-right"><b><i>Business Management</i></b></div>
-                    <div class="col-md-6 text-left"><b><i>2003-2004</i></b></div>
-                    <div class="col-md-6 text-right"><h4><a href="http://dixie.edu/" target="_blank">Dixie State University:</a></h4></div>
-                    <div class="col-md-6 text-left"><h4>St. George, UT</h4></div>
-                    <div class="col-md-6 text-right"><b><i>General Education</i></b></div>
-                    <div class="col-md-6 text-left"><b><i>2002-2003</i></b></div>
+                <div class="container">
+                    <div class="row collapse" id="education">
+                        <div class="col-md-6 text-right"><h4><a href="http://mlatc.edu/" target="_blank">Mountainland Applied Technology College:</a></h4></div>
+                        <div class="col-md-6 text-left"><h4>Lehi, UT</h4></div>
+                        <div class="col-md-6 text-right"><b><i>Web Development and Programming</i></b></div>
+                        <div class="col-md-6 text-left"><b><i>2015-2016</i></b></div>
+                        <div class="col-md-6 text-right"><h4><a href="http://www.uvu.edu/" target="_blank">Utah Valley University:</a></h4></div>
+                        <div class="col-md-6 text-left"><h4>Orem, UT</h4></div>
+                        <div class="col-md-6 text-right"><b><i>Business Management</i></b></div>
+                        <div class="col-md-6 text-left"><b><i>2003-2004</i></b></div>
+                        <div class="col-md-6 text-right"><h4><a href="http://dixie.edu/" target="_blank">Dixie State University:</a></h4></div>
+                        <div class="col-md-6 text-left"><h4>St. George, UT</h4></div>
+                        <div class="col-md-6 text-right"><b><i>General Education</i></b></div>
+                        <div class="col-md-6 text-left"><b><i>2002-2003</i></b></div>
+                    </div>
                 </div>
         <hr>
-            <div class="col-md-12">
-                <h3><i class="fa fa-check-square-o"></i> SKILLS <i class="fa fa-check-square-o"></i></h3>
+        <div class="row">
+            <div>
+                <span id="subHeading" data-toggle="collapse" data-target="#projects"><i class="fa fa-black-tie"></i> <u>PROJECTS</u> <i class="fa fa-black-tie"></i></span><span> <-- click to expand</span>
             </div>
-                <div class="row">
+            <div class="row collapse" id="projects">
+                <div class="col-md-12" id="projectTitles">
                     <div class="col-md-2"></div>
-                    <div class="col-md-2">
-                        <ul>
-                            <li><b>Web Development</b></li>
-                            <li><b>AutoCAD</b></li>
-                            <li><b>Communication</b></li>
-                            <li><b>Self Motivated</b></li>
-                        </ul>
-                    </div>
-                    <div class="col-md-2">
-                        <ul>
-                            <li><b>QuickBooks</b></li>
-                            <li><b>Windows</b></li>
-                            <li><b>Web Programming</b></li>
-                            <li><b>Forklift</b></li>
-                        </ul>
-                    </div>
-                    <div class="col-md-2">
-                        <ul>
-                            <li><b>Microsoft Office</b></li>
-                            <li><b>Critical Thinking</b></li>
-                            <li><b>Customer Service</b></li>
-                            <li><b>Quick Learner</b></li>
-                        </ul>
-                    </div>
-                    <div class="col-md-2">
-                        <ul>
-                            <li><b>Management</b></li>
-                            <li><b>Misc. Equipment</b></li>
-                            <li><b>Attention to Detail</b></li>
-                            <li><b>Time Management</b></li>
-                        </ul>
+                    <div class="col-md-8 text-center">
+                        <div class="col-md-4"><a href="myPortfolio.html" target="_blank">Portfolio</a></div>
+                        <div class="col-md-4"><a href="warGame.html" target="_blank">War Game</a></div>
+                        <div class="col-md-4"><a href="whoKnows.html" target="_blank">Who Knows?</a></div>
                     </div>
                     <div class="col-md-2"></div>
                 </div>
+                <div class="col-md-12" id="checkItOut">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-8 text-center">
+                        <div class="col-md-4"><a href="#" title="Header" data-toggle="popover" data-trigger="hover" data-content="Some content">Check it out</a></div>
+                        <div class="col-md-4"><a href="#" title="Header" data-toggle="popover" data-trigger="hover" data-content="Some content">Check it out</a></div>
+                        <div class="col-md-4"><a href="#" title="Header" data-toggle="popover" data-trigger="hover" data-content="Some content">Check it out</a></div>
+                    </div>
+                    <div class="col-md-2"></div>
+                </div>
+            </div>
+        </div>
+        <hr>
+            <div class="row">
+                <div>
+                <span id="subHeading" data-toggle="collapse" data-target="#skills"><i class="fa fa-check-square-o"></i> <u>SKILLS</u> <i class="fa fa-check-square-o"></i></span><span> <-- click to expand</span>
+                </div>
+                <div class="row collapse" id="skills">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-10">
+                        <div class="col-md-3">
+                            <ul>
+                                <li><b>Web Development</b></li>
+                                <li><b>AutoCAD</b></li>
+                                <li><b>Communication</b></li>
+                                <li><b>Self Motivated</b></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3">
+                            <ul>
+                                <li><b>QuickBooks</b></li>
+                                <li><b>Windows</b></li>
+                                <li><b>Web Programming</b></li>
+                                <li><b>Forklift</b></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3">
+                            <ul>
+                                <li><b>Microsoft Office</b></li>
+                                <li><b>Critical Thinking</b></li>
+                                <li><b>Customer Service</b></li>
+                                <li><b>Quick Learner</b></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3">
+                            <ul>
+                                <li><b>Management</b></li>
+                                <li><b>Misc. Equipment</b></li>
+                                <li><b>Attention to Detail</b></li>
+                                <li><b>Time Management</b></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-1"></div>
+                </div>
+            </div>
         <hr>
         <div class="col-md-12 text-center"><b><i>Refernces available upon request</i></b></div>
         <br/>
         <hr>
         <div class="col-md-12">
-             <a href="myPortfolio.html"><h4><b class="link">BACK TO HOME</b></h4></a>
+             <a href="#top"><h4><b class="link">BACK TO TOP</b></h4></a>
         </div>
+        <hr>
     </div>
-    <hr>
 </body>
 <br/>
 <footer>

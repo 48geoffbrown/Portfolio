@@ -139,4 +139,13 @@ tr {
 footer {
     font-size: 12pt;
 }
-
+#myName {font-size: 30pt;
+}
+#subHeading {font-size: 20pt;
+}
+#resumeBody {font-family: 'Russo One', sans-serif;
+}
+#projectTitles {font-size: 20pt;
+}
+#checkItOut {font-size: 12pt;
+}
